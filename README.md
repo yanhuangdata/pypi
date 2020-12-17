@@ -1,7 +1,9 @@
 # PEP 503 compliant PyPi repository
+## repo url
+[https://yanhuangdata.github.io/pypi/simple/](https://yanhuangdata.github.io/pypi/simple/)
 
 ## Usage
-## poetry
+### poetry
 https://python-poetry.org/docs/repositories/#install-dependencies-from-a-private-repository
 
 ```
@@ -10,7 +12,7 @@ name = "yh-repo"
 url = "https://yanhuangdata.github.io/pypi/simple/"  
 ```
 
-## pip install
+### pip install
 
 ```shell
 pip install pyarrow --extra-index-url https://yanhuangdata.github.io/pypi/simple/
